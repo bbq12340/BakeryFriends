@@ -5,4 +5,13 @@
         <item>cake</item>
         <item>scone</item>
     </string-array>
+
+    <string-array name="cookie">
+        <item>macarong</item>
+        <item>chocolate</item>
+        <item>almond</item>
+        <item>butter</item>
+    </string-array>
+
+
 </resources>
