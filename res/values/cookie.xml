@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="cookie">
-        <item>macarong</item>
-        <item>chocolate</item>
-    </string-array>
+
     <string-array name="macarong">
         <item>계란</item>
-        <item>아몬드 분말</item>
+       <item>아몬드 분말</item>
         <item>슈가파우더</item>
         <item>백련초</item>
         <item>마차가루</item>
         <item>코코아가루</item>
+    </string-array>
+    <string-array name="chocolate">
+        <item>버터</item>
+        <item>올리고당</item>
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>황설탕</item>
+        <item>계란</item>
+        <item>코코아가루</item>
+        <item>초코</item>
+    </string-array>
+    <string-array name="almond">
+        <item>계란</item>
+        <item>소금</item>
+        <item>박력분</item>
+        <item>버터</item>
+        <item>설탕</item>
+        <item>아몬드</item>
+    </string-array>
+    <string-array name="butter">
+        <item>버터</item>
+        <item>설탕</item>
+        <item>박력분</item>
+        <item>계란</item>
     </string-array>
 </resources>
