@@ -3,7 +3,12 @@
 
     <item
         android:id="@+id/itemDiary"
-        android:title="나만의 냉장고">
+        android:title="나만의 냉장고 (갱신)">
+    </item>
+
+    <item
+        android:id="@+id/itemSave"
+        android:title="나만의 냉장고 (확인하기)">
     </item>
 
 
