@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="scone">
+    <string-array name="basic_scone">
         <item>스콘</item>
         <item>박력분</item>
         <item>베이킹파우더</item>
