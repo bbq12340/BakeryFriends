@@ -7,11 +7,39 @@
     </string-array>
 
     <string-array name="cookie">
-        <item>macarong</item>
-        <item>chocolate</item>
-        <item>almond</item>
-        <item>butter</item>
+        <item>마카롱</item>
+        <item>초콜렛쿠키</item>
+        <item>아몬드쿠키</item>
+        <item>버터쿠키</item>
+        <item>오렌지쿠키</item>
+        <item>통밀쿠키</item>
+        <item>피넛버터참깨쿠키</item>
+        <item>맨하탄쿠키</item>
+        <item>코코넛쿠키</item>
+        <item>치즈쿠키</item>
+        <item>사블레달팽이쿠키</item>
+        <item>밀크쿠키</item>
+        <item>녹차쿠키</item>
     </string-array>
 
+    <string-array name="cake">
+        <item>치즈파운드케이크</item>
+        <item>초코케이크</item>
+        <item>크림치즈머핀</item>
+        <item>치즈케이크</item>
+        <item>롤케이크</item>
+        <item>카스테라</item>
+        <item>티라미수</item>
+        <item>브라우니컵케익</item>
+        <item>바나나머핀</item>
+        <item>초코머핀</item>
+    </string-array>
+
+    <string-array name="scone">
+        <item>스콘</item>
+        <item>통밀호두스콘</item>
+        <item>크렌베리스콘</item>
+        <item></item>
+    </string-array>
 
 </resources>
