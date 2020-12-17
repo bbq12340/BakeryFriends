@@ -1,11 +1,13 @@
 package com.example.bakingfriends;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.ImageView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,13 +17,15 @@ public class ResultActivity extends Activity {
     int arrayId;
     String [] bakery; // 베이커리 종류
     String [] bakeryIngredient; // 선택된 베이커리 재
-    int [] countScore; // 재료 일치 점수
+    double [] countScore; // 재료 일치 점수
     int [] rank; // 베이커리 재료 일치 순위
     TextView recommend1, recommend2, recommend3;
-    int first, second, third;
+    double first, second, third;
     int r1, r2, r3;
     ImageButton recommendImg1, recommendImg2, recommendImg3;
-
+    View dialogView;
+    ImageView dlgImg;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +39,7 @@ public class ResultActivity extends Activity {
 
         arrayId = this.getResources().getIdentifier(choice, "array", this.getPackageName());
         bakery = this.getResources().getStringArray(arrayId);
-        countScore = new int [bakery.length];
+        countScore = new double [bakery.length];
         for (int i=0; i<bakery.length; i++) {
             int bakeryId = this.getResources().getIdentifier(bakery[i], "array", this.getPackageName());
             bakeryIngredient = this.getResources().getStringArray(bakeryId);
@@ -45,11 +49,16 @@ public class ResultActivity extends Activity {
                         countScore[i]++;
                     }
                 } catch (ArrayIndexOutOfBoundsException e) {
-                    ;
+                    System.out.println(bakery[i]);
                 }
             }
             countScore[i] = countScore[i]/myIngredientArray.length;
         }
+
+        for (int i=0; i<bakery.length; i++) {
+            System.out.println(countScore[i]);
+        }
+
 
         recommend1 = (TextView) findViewById(R.id.recommend1);
         recommend2 = (TextView) findViewById(R.id.recommend2);
@@ -59,9 +68,9 @@ public class ResultActivity extends Activity {
         recommendImg2 = (ImageButton) findViewById((R.id.recommendImg2));
         recommendImg3 = (ImageButton) findViewById((R.id.recommendImg3));
 
-        first=0;
-        second=0;
-        third=0;
+        first=0.0;
+        second=0.0;
+        third=0.0;
         for (int i=0; i<countScore.length; i++) {
             if (countScore[i]>first) {
                 third = second;
@@ -81,9 +90,9 @@ public class ResultActivity extends Activity {
         recommend2.setText(bakery[r2]);
         recommend3.setText(bakery[r3]);
 
-        int r1Id = this.getResources().getIdentifier(bakery[r1], "drawable", this.getPackageName());
-        int r2Id = this.getResources().getIdentifier(bakery[r2], "drawable", this.getPackageName());
-        int r3Id = this.getResources().getIdentifier(bakery[r3], "drawable", this.getPackageName());
+        final int r1Id = this.getResources().getIdentifier(bakery[r1], "drawable", this.getPackageName());
+        final int r2Id = this.getResources().getIdentifier(bakery[r2], "drawable", this.getPackageName());
+        final int r3Id = this.getResources().getIdentifier(bakery[r3], "drawable", this.getPackageName());
         recommendImg1.setImageResource(r1Id);
         recommendImg2.setImageResource(r2Id);
         recommendImg3.setImageResource(r3Id);
@@ -91,19 +100,43 @@ public class ResultActivity extends Activity {
         recommendImg1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                dialogView = (View) View.inflate(ResultActivity.this, R.layout.dialog2, null);
+                dlgImg = (ImageView) findViewById(R.id.dlgImg); 
+                dlgImg.setImageResource(r1Id);
+                AlertDialog.Builder dlg = new AlertDialog.Builder(ResultActivity.this);
+                dlg.setTitle("레시피");
+                dlg.setIcon(R.drawable.ico_baking_friends);
+                dlg.setView(dialogView);
+                dlg.setNegativeButton("닫기", null);
+                dlg.show();
             }
         });
-        recommendImg1.setOnClickListener(new View.OnClickListener() {
+        recommendImg2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                dialogView = (View) View.inflate(ResultActivity.this, R.layout.dialog2, null);
+                dlgImg = (ImageView) findViewById(R.id.dlgImg);
+                dlgImg.setImageResource(r2Id);
+                AlertDialog.Builder dlg = new AlertDialog.Builder(ResultActivity.this);
+                dlg.setTitle("레시피");
+                dlg.setIcon(R.drawable.ico_baking_friends);
+                dlg.setView(dialogView);
+                dlg.setNegativeButton("닫기", null);
+                dlg.show();
             }
         });
-        recommendImg1.setOnClickListener(new View.OnClickListener() {
+        recommendImg3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                dialogView = (View) View.inflate(ResultActivity.this, R.layout.dialog2, null);
+                dlgImg = (ImageView) findViewById(R.id.dlgImg);
+                dlgImg.setImageResource(r3Id);
+                AlertDialog.Builder dlg = new AlertDialog.Builder(ResultActivity.this);
+                dlg.setTitle("레시피");
+                dlg.setIcon(R.drawable.ico_baking_friends);
+                dlg.setView(dialogView);
+                dlg.setNegativeButton("닫기", null);
+                dlg.show();
             }
         });
     }
