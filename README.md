@@ -9,12 +9,12 @@
 
 
 
-### Installing / 설치
+### 실행/
 
-아래 사항들로 현 프로젝트에 관한 모듈들을 설치할 수 있습니다.
+나만의 냉장고 기능
 
 ```
-예시
+첫 실행 화면
 ```
 <img src="./screen/git1.PNG" width="22%" align="center">     
 
