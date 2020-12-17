@@ -25,7 +25,7 @@ public class ResultActivity extends Activity {
     ImageButton recommendImg1, recommendImg2, recommendImg3;
     View dialogView;
     ImageView dlgImg;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -101,8 +101,12 @@ public class ResultActivity extends Activity {
             @Override
             public void onClick(View view) {
                 dialogView = (View) View.inflate(ResultActivity.this, R.layout.dialog2, null);
-                dlgImg = (ImageView) findViewById(R.id.dlgImg); 
-                dlgImg.setImageResource(r1Id);
+                dlgImg = (ImageView) findViewById(R.id.dlgImg);
+                try{
+                    dlgImg.setImageResource(r1Id);
+                } catch (NullPointerException e) {
+                    ;
+                }
                 AlertDialog.Builder dlg = new AlertDialog.Builder(ResultActivity.this);
                 dlg.setTitle("레시피");
                 dlg.setIcon(R.drawable.ico_baking_friends);
@@ -116,7 +120,11 @@ public class ResultActivity extends Activity {
             public void onClick(View view) {
                 dialogView = (View) View.inflate(ResultActivity.this, R.layout.dialog2, null);
                 dlgImg = (ImageView) findViewById(R.id.dlgImg);
-                dlgImg.setImageResource(r2Id);
+                try{
+                    dlgImg.setImageResource(r2Id);
+                } catch (NullPointerException e) {
+                    ;
+                }
                 AlertDialog.Builder dlg = new AlertDialog.Builder(ResultActivity.this);
                 dlg.setTitle("레시피");
                 dlg.setIcon(R.drawable.ico_baking_friends);
@@ -130,7 +138,11 @@ public class ResultActivity extends Activity {
             public void onClick(View view) {
                 dialogView = (View) View.inflate(ResultActivity.this, R.layout.dialog2, null);
                 dlgImg = (ImageView) findViewById(R.id.dlgImg);
-                dlgImg.setImageResource(r3Id);
+                try{
+                    dlgImg.setImageResource(r3Id);
+                } catch (NullPointerException e) {
+                    ;
+                }
                 AlertDialog.Builder dlg = new AlertDialog.Builder(ResultActivity.this);
                 dlg.setTitle("레시피");
                 dlg.setIcon(R.drawable.ico_baking_friends);
