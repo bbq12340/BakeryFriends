@@ -1,1 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/itemDiary"
+        android:title="나만의 냉장고">
+    </item>
+
+
+
+</menu>
