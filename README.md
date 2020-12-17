@@ -33,7 +33,7 @@
 ## Execution1 / 실행1 - 나만의 냉장고 기능
 
 
-<img src="./screen/git1.PNG" width="30%" align="center"> 
+<img src="./screen/git1.PNG" width="30%" height="30%" align="center"> 
 **첫 실행 화면**
 
 <img src="./screen/git2.PNG" width="30%" align="center">
