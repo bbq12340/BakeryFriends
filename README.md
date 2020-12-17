@@ -54,7 +54,7 @@
 <img src="./screen/git7.PNG" width="25%" height="25%" align="center"> **Bread를 선택하면 레시피 대화상자를 출력한다.(레시피는 추후 업데이트 예정)**
 
 
-
+<hr/>
 
 
 
@@ -73,13 +73,6 @@ Add additional notes about how to deploy this on a live system / 라이브 시�
 * [이름](링크) - 무엇 무엇을 했어요
 * [Name](Link) - Create README.md
 
-## Contributiong / 기여
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. / [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) 를 읽고 이에 맞추어 pull request 를 해주세요.
-
-## License / 라이센스
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/PurpleBooth/LICENSE.md) file for details / 이 프로젝트는 MIT 라이센스로 라이센스가 부여되어 있습니다. 자세한 내용은 LICENSE.md 파일을 참고하세요.
 
 ## Reference / 참고
 
