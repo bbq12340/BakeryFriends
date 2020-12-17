@@ -7,19 +7,19 @@
     </string-array>
 
     <string-array name="cookie">
-        <item>마카롱</item>
-        <item>초콜렛쿠키</item>
-        <item>아몬드쿠키</item>
-        <item>버터쿠키</item>
-        <item>오렌지쿠키</item>
-        <item>통밀쿠키</item>
-        <item>피넛버터참깨쿠키</item>
-        <item>맨하탄쿠키</item>
-        <item>코코넛쿠키</item>
-        <item>치즈쿠키</item>
-        <item>사블레달팽이쿠키</item>
-        <item>밀크쿠키</item>
-        <item>녹차쿠키</item>
+        <item>macaroon</item>
+        <item>Chocolate_cookies</item>
+        <item>Almond_Cookie</item>
+        <item>Butter_Cookie</item>
+        <item>Orange_Cookie</item>
+        <item>Tongmil_Cookie</item>
+        <item>Peanut_Butter_Sesame_Cookie</item>
+        <item>Manhattan_Cookies</item>
+        <item>Coconut_Cookie</item>
+        <item>Cheese_Cookie</item>
+        <item>Sable_Snail_Cookie</item>
+        <item>Milk_Cookie</item>
+        <item>Green_Cookie</item>
     </string-array>
 
     <string-array name="cake">
