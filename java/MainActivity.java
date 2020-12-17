@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     query = Ingredient.getText().toString();
                     choice = bakeryChoice[bakeryChoiceList.getCheckedItemPosition()].toString();
-                    List<String> myIngredient = new ArrayList<String>(Arrays.asList(query.split("-|,|\s")));
+                    List<String> myIngredient = new ArrayList<String>(Arrays.asList(query.split("[-|,|\\s]")));
                     Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
                     intent.putExtra("choice", choice);
                     intent.putStringArrayListExtra("myIngredient", (ArrayList<String>) myIngredient);
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                 dialogView = (View) View.inflate(MainActivity.this, R.layout.dialog, null);
                 androidx.appcompat.app.AlertDialog.Builder dlg = new androidx.appcompat.app.AlertDialog.Builder(MainActivity.this);
                 dlg.setTitle("나만의 냉장고 (갱신)");
-                dlg.setIcon(R.drawable.icon2);
+                dlg.setIcon(R.drawable.icon_dialog);
                 dlg.setView(dialogView);
 
                 dlgEdt = (EditText) dialogView.findViewById(R.id.edtMemo);
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
                     String str = new String(txt);
                     androidx.appcompat.app.AlertDialog.Builder dlg2 = new AlertDialog.Builder(MainActivity.this);
                     dlg2.setTitle("나만의 냉장고 (현재 재료)");
-                    dlg2.setIcon(R.drawable.icon2);
+                    dlg2.setIcon(R.drawable.icon_dialog);
                     dlg2.setMessage(str);
                     dlg2.setPositiveButton("확인", null);
                     dlg2.show();
