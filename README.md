@@ -64,9 +64,15 @@
 
 
 
-## Deployment / 배포
+## Notice
 
-Add additional notes about how to deploy this on a live system / 라이브 시스템을 배포하는 방법
+아직 대부분의 Bread들의 사진, 레시피들이 기록되어 있지 않습니다.
+많은 쿠키,케이크,스콘 종류의 사진, 레시프들은 추후 계속 업데이트 될 예정입니다.
+
+
+
+
+
 
 ## Built With / 누구랑 만들었나요?
 
