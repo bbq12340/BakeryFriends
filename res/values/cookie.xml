@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="macarong">
+    <string-array name="마카롱">
         <item>계란</item>
-       <item>아몬드 분말</item>
+        <item>아몬드 분말</item>
         <item>슈가파우더</item>
         <item>백련초</item>
         <item>마차가루</item>
         <item>코코아가루</item>
     </string-array>
-    <string-array name="chocolate">
+    <string-array name="초콜렛쿠키">
         <item>버터</item>
         <item>올리고당</item>
         <item>박력분</item>
@@ -19,7 +19,7 @@
         <item>코코아가루</item>
         <item>초코</item>
     </string-array>
-    <string-array name="almond">
+    <string-array name="아몬드쿠키">
         <item>계란</item>
         <item>소금</item>
         <item>박력분</item>
@@ -27,10 +27,101 @@
         <item>설탕</item>
         <item>아몬드</item>
     </string-array>
-    <string-array name="butter">
+    <string-array name="버터쿠키">
         <item>버터</item>
         <item>설탕</item>
         <item>박력분</item>
         <item>계란</item>
+    </string-array>
+    <string-array name="오렌지쿠키">
+        <item>버터</item>
+        <item>설탕</item>
+        <item>박력분</item>
+        <item>계란</item>
+        <item>계피가루</item>
+        <item>아몬드분말</item>
+        <item>슈가파우더</item>
+        <item>오렌지</item>
+        <item>레몬피</item>
+    </string-array>
+    <string-array name="통밀쿠키">
+        <item>버터</item>
+        <item>황설탕</item>
+        <item>박력분</item>
+        <item>우유</item>
+        <item>통밀</item>
+        <item>소금</item>
+        <item>검정깨</item>
+        <item>베이킹파우더</item>
+    </string-array>
+    <string-array name="피넛버터참깨쿠키">
+        <item>버터</item>
+        <item>황설탕</item>
+        <item>박력분</item>
+        <item>검정깨</item>
+        <item>베이킹소다</item>
+        <item>피넛버터</item>
+    </string-array>
+    <string-array name="맨하탄쿠키">
+        <item>버터</item>
+        <item>황설탕</item>
+        <item>박력분</item>
+        <item>설탕</item>
+        <item>베이킹파우더</item>
+        <item>계란</item>
+        <item>커스터드크림믹스</item>
+        <item>초코칩</item>
+        <item>호두</item>
+        <item>바닐라향</item>
+    </string-array>
+    <string-array name="코코넛쿠키">
+        <item>버터</item>
+        <item>박력분</item>
+        <item>설탕</item>
+        <item>베이킹소다</item>
+        <item>피넛버터</item>
+        <item>물엿</item>
+        <item>소금</item>
+        <item>계란</item>
+        <item>바닐라향</item>
+        <item>초코칩</item>
+        <item>코코넛채</item>
+    </string-array>
+    <string-array name="치즈쿠키">
+        <item>버터</item>
+        <item>박력분</item>
+        <item>설탕</item>
+        <item>슬라이스치즈</item>
+        <item>계란</item>
+        <item>황치즈분말</item>
+        <item>소금</item>
+    </string-array>
+    <string-array name="사블레달팽이쿠키">
+        <item>버터</item>
+        <item>박력분</item>
+        <item>슈가파우더</item>
+        <item>아몬드분말</item>
+        <item>아몬드슬라이스</item>
+        <item>계란</item>
+        <item>바닐라향</item>
+        <item>소금</item>
+    </string-array>
+    <string-array name="밀크쿠키">
+        <item>버터</item>
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>설탕</item>
+        <item>계란</item>
+        <item>바닐라향</item>
+        <item>소금</item>
+        <item>생크림</item>
+    </string-array>
+    <string-array name="녹차쿠키">
+        <item>버터</item>
+        <item>박력분</item>
+        <item>녹차가루</item>
+        <item>설탕</item>
+        <item>계란</item>
+        <item>아몬드분말</item>
     </string-array>
 </resources>
