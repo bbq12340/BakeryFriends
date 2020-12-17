@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     query = Ingredient.getText().toString();
                     choice = bakeryChoice[bakeryChoiceList.getCheckedItemPosition()].toString();
-                    List<String> myIngredient = new ArrayList<String>(Arrays.asList(query.split(",")));
+                    List<String> myIngredient = new ArrayList<String>(Arrays.asList(query.split("-|,|\s")));
                     Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
                     intent.putExtra("choice", choice);
                     intent.putStringArrayListExtra("myIngredient", (ArrayList<String>) myIngredient);
