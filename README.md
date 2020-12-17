@@ -16,7 +16,7 @@
 ```
 예시
 ```
-<img src="./screen/깃1." width="22%" align="center">     
+<img src="./screen/git1.PNG" width="22%" align="center">     
 
 ## Running the tests / 테스트의 실행
 
