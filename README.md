@@ -29,16 +29,19 @@
 ```
 <hr/>
 
-### Execution / 실행
+## Execution / 실행
 
 **1. 나만의 냉장고 기능**
 
-<img src="./screen/git1.PNG" width="40%" align="center"> 
-첫 실행 화면
+<img src="./screen/git1.PNG" width="30%" align="center"> 
+### 첫 실행 화면
 
-<img src="./screen/git2.PNG" width="40%" align="center">
-오른쪽 상단에 있는 메뉴를 클릭하면 "나만의 냉장고" 항목이 표시
+<img src="./screen/git2.PNG" width="30%" align="center">
+### 오른쪽 상단에 있는 메뉴를 클릭하면 "나만의 냉장고" 항목이 표시
 
+
+
+<hr/>
 
 ## Running the tests / 테스트의 실행
 
