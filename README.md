@@ -16,7 +16,7 @@
 ```
 예시
 ```
-
+https://github.com/bbq12340/BakeryFriends/blob/0.x/screen/%EA%B9%831.PNG?raw=true
 ## Running the tests / 테스트의 실행
 
 어떻게 테스트가 이 시스템에서 돌아가는지에 대한 설명을 합니다
