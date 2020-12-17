@@ -25,6 +25,7 @@ public class ResultActivity extends Activity {
     ImageButton recommendImg1, recommendImg2, recommendImg3;
     View dialogView;
     ImageView dlgImg;
+    TextView recipeTxt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,10 +56,6 @@ public class ResultActivity extends Activity {
             countScore[i] = countScore[i]/myIngredientArray.length;
         }
 
-        for (int i=0; i<bakery.length; i++) {
-            System.out.println(countScore[i]);
-        }
-
 
         recommend1 = (TextView) findViewById(R.id.recommend1);
         recommend2 = (TextView) findViewById(R.id.recommend2);
@@ -86,9 +83,12 @@ public class ResultActivity extends Activity {
                 r3=i;
             }
         }
-        recommend1.setText(bakery[r1]);
-        recommend2.setText(bakery[r2]);
-        recommend3.setText(bakery[r3]);
+        recommend1.setText(this.getResources().getStringArray(
+                this.getResources().getIdentifier(bakery[r1], "array", this.getPackageName()))[0]);
+        recommend2.setText(this.getResources().getStringArray(
+                this.getResources().getIdentifier(bakery[r2], "array", this.getPackageName()))[0]);
+        recommend3.setText(this.getResources().getStringArray(
+                this.getResources().getIdentifier(bakery[r3], "array", this.getPackageName()))[0]);
 
         final int r1Id = this.getResources().getIdentifier(bakery[r1], "drawable", this.getPackageName());
         final int r2Id = this.getResources().getIdentifier(bakery[r2], "drawable", this.getPackageName());
@@ -101,12 +101,14 @@ public class ResultActivity extends Activity {
             @Override
             public void onClick(View view) {
                 dialogView = (View) View.inflate(ResultActivity.this, R.layout.dialog2, null);
-                dlgImg = (ImageView) findViewById(R.id.dlgImg);
+                dlgImg = (ImageView) dialogView.findViewById(R.id.dlgImg);
+                recipeTxt = (TextView) dialogView.findViewById(R.id.recipeTxt);
                 try{
                     dlgImg.setImageResource(r1Id);
                 } catch (NullPointerException e) {
-                    ;
+                    System.out.println(r1Id);
                 }
+                recipeTxt.setText("레시피 준비 중...");
                 AlertDialog.Builder dlg = new AlertDialog.Builder(ResultActivity.this);
                 dlg.setTitle("레시피");
                 dlg.setIcon(R.drawable.ico_baking_friends);
@@ -119,12 +121,14 @@ public class ResultActivity extends Activity {
             @Override
             public void onClick(View view) {
                 dialogView = (View) View.inflate(ResultActivity.this, R.layout.dialog2, null);
-                dlgImg = (ImageView) findViewById(R.id.dlgImg);
+                dlgImg = (ImageView) dialogView.findViewById(R.id.dlgImg);
+                recipeTxt = (TextView) dialogView.findViewById(R.id.recipeTxt);
                 try{
                     dlgImg.setImageResource(r2Id);
                 } catch (NullPointerException e) {
-                    ;
+                    System.out.println(r2Id);
                 }
+                recipeTxt.setText("레시피 준비 중...");
                 AlertDialog.Builder dlg = new AlertDialog.Builder(ResultActivity.this);
                 dlg.setTitle("레시피");
                 dlg.setIcon(R.drawable.ico_baking_friends);
@@ -137,12 +141,14 @@ public class ResultActivity extends Activity {
             @Override
             public void onClick(View view) {
                 dialogView = (View) View.inflate(ResultActivity.this, R.layout.dialog2, null);
-                dlgImg = (ImageView) findViewById(R.id.dlgImg);
+                dlgImg = (ImageView) dialogView.findViewById(R.id.dlgImg);
+                recipeTxt = (TextView) dialogView.findViewById(R.id.recipeTxt);
                 try{
                     dlgImg.setImageResource(r3Id);
                 } catch (NullPointerException e) {
-                    ;
+                    System.out.println(r3Id);
                 }
+                recipeTxt.setText("레시피 준비 중...");
                 AlertDialog.Builder dlg = new AlertDialog.Builder(ResultActivity.this);
                 dlg.setTitle("레시피");
                 dlg.setIcon(R.drawable.ico_baking_friends);
