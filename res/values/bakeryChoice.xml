@@ -36,7 +36,7 @@
     </string-array>
 
     <string-array name="scone">
-        <item>scone</item>
+        <item>basic_scone</item>
         <item>whole_wheat_walnut_scone</item>
         <item>cranberry_scone</item>
         <item>choco_chips_corn</item>
