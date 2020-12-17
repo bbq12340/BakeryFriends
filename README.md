@@ -76,10 +76,10 @@
 
 
 
-## Built With / 누구랑 만들었나요?
+## Responsible part / 담당 부분
 
-* [이름](링크) - 무엇 무엇을 했어요
-* [Name](Link) - Create README.md
+* 20170393 이현우 - Front end
+* 20171453 장재혁 - Back end
 
 
 ## Reference / 참고
