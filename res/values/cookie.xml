@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="macaroon">
+        <item>마카롱</item>
+        <item>계란</item>
+        <item>아몬드 분말</item>
+        <item>슈가파우더</item>
+        <item>백련초</item>
+        <item>마차가루</item>
+        <item>코코아가루</item>
+    </string-array>
+    <string-array name="chocolate_cookies">
+        <item>초코 쿠키</item>
+        <item>버터</item>
+        <item>올리고당</item>
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>황설탕</item>
+        <item>계란</item>
+        <item>코코아가루</item>
+        <item>초코</item>
+    </string-array>
+    <string-array name="almond_cookie">
+        <item>아몬드 쿠키</item>
+        <item>계란</item>
+        <item>소금</item>
+        <item>박력분</item>
+        <item>버터</item>
+        <item>설탕</item>
+        <item>아몬드</item>
+    </string-array>
+    <string-array name="butter_cookie">
+        <item>버터 쿠키</item>
+        <item>버터</item>
+        <item>설탕</item>
+        <item>박력분</item>
+        <item>계란</item>
+    </string-array>
+    <string-array name="orange_cookie">
+        <item>오렌지 쿠키</item>
+        <item>버터</item>
+        <item>설탕</item>
+        <item>박력분</item>
+        <item>계란</item>
+        <item>계피가루</item>
+        <item>아몬드분말</item>
+        <item>슈가파우더</item>
+        <item>오렌지</item>
+        <item>레몬피</item>
+    </string-array>
+    <string-array name="tongmil_cookie">
+        <item>통밀 쿠키</item>
+        <item>버터</item>
+        <item>황설탕</item>
+        <item>박력분</item>
+        <item>우유</item>
+        <item>통밀</item>
+        <item>소금</item>
+        <item>검정깨</item>
+        <item>베이킹파우더</item>
+    </string-array>
+    <string-array name="peanut_butter_sesame_cookie">
+        <item>피넛버터 참깨 쿠키</item>
+        <item>버터</item>
+        <item>황설탕</item>
+        <item>박력분</item>
+        <item>검정깨</item>
+        <item>베이킹소다</item>
+        <item>피넛버터</item>
+    </string-array>
+    <string-array name="manhattan_cookies">
+        <item>맨헤튼 쿠키</item>
+        <item>버터</item>
+        <item>황설탕</item>
+        <item>박력분</item>
+        <item>설탕</item>
+        <item>베이킹파우더</item>
+        <item>계란</item>
+        <item>커스터드크림믹스</item>
+        <item>초코칩</item>
+        <item>호두</item>
+        <item>바닐라향</item>
+    </string-array>
+    <string-array name="coconut_cookie">
+        <item>코코넛 쿠키</item>
+        <item>버터</item>
+        <item>박력분</item>
+        <item>설탕</item>
+        <item>베이킹소다</item>
+        <item>피넛버터</item>
+        <item>물엿</item>
+        <item>소금</item>
+        <item>계란</item>
+        <item>바닐라향</item>
+        <item>초코칩</item>
+        <item>코코넛채</item>
+    </string-array>
+    <string-array name="cheese_cookie">
+        <item>치즈 쿠키</item>
+        <item>버터</item>
+        <item>박력분</item>
+        <item>설탕</item>
+        <item>슬라이스치즈</item>
+        <item>계란</item>
+        <item>황치즈분말</item>
+        <item>소금</item>
+    </string-array>
+    <string-array name="sable_snail_cookie">
+        <item>사블레 달팽이 쿠키</item>
+        <item>버터</item>
+        <item>박력분</item>
+        <item>슈가파우더</item>
+        <item>아몬드분말</item>
+        <item>아몬드슬라이스</item>
+        <item>계란</item>
+        <item>바닐라향</item>
+        <item>소금</item>
+    </string-array>
+    <string-array name="milk_cookie">
+        <item>밀크 쿠키</item>
+        <item>버터</item>
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>설탕</item>
+        <item>계란</item>
+        <item>바닐라향</item>
+        <item>소금</item>
+        <item>생크림</item>
+    </string-array>
+    <string-array name="green_cookie">
+        <item>녹차 쿠키</item>
+        <item>버터</item>
+        <item>박력분</item>
+        <item>녹차가루</item>
+        <item>설탕</item>
+        <item>계란</item>
+        <item>아몬드분말</item>
+    </string-array>
+</resources>
+

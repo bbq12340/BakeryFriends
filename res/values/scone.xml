@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="basic_scone">
+        <item>스콘</item>
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>소금</item>
+        <item>설탕</item>
+        <item>버터</item>
+        <item>계란</item>
+        <item>우유</item>
+        <item>바닐라향</item>
+    </string-array>
+    <string-array name="whole_wheat_walnut_scone">
+        <item>통밀호두스콘</item>
+        <item>통밀가루</item>
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>베이킹소다</item>
+        <item>흑설탕</item>
+        <item>소금</item>
+        <item>버터</item>
+        <item>우유</item>
+        <item>계란</item>
+        <item>호두</item>
+    </string-array>
+    <string-array name="cranberry_scone">
+        <item>크렌베리스콘</item>
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>소금</item>
+        <item>설탕</item>
+        <item>버터</item>
+        <item>계란</item>
+        <item>우유</item>
+        <item>바닐라향</item>
+        <item>크렌베리</item>
+        <item>건포도</item>
+    </string-array>
+    <string-array name="choco_chips_corn">
+        <item>초코칩스콘</item>
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>소금</item>
+        <item>설탕</item>
+        <item>버터</item>
+        <item>계란</item>
+        <item>우유</item>
+        <item>초코칩</item>
+    </string-array>
+    <string-array name="earl_grace_corn">
+        <item>얼그레이스콘</item>
+        <item>강력분</item>
+        <item>베이킹파우더</item>
+        <item>소금</item>
+        <item>설탕</item>
+        <item>얼그레이티백</item>
+        <item>생크림</item>
+    </string-array>
+    <string-array name="blueberry_scone">
+        <item>블루베리스콘</item>
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>소금</item>
+        <item>설탕</item>
+        <item>버터</item>
+        <item>달걀</item>
+        <item>우유</item>
+        <item>건블루베리</item>
+    </string-array>
+</resources>

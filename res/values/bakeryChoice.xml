@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bakeryChoice">
+        <item>cookie</item>
+        <item>cake</item>
+        <item>scone</item>
+    </string-array>
+
+    <string-array name="cookie">
+        <item>macaroon</item>
+        <item>chocolate_cookies</item>
+        <item>almond_cookie</item>
+        <item>butter_cookie</item>
+        <item>orange_cookie</item>
+        <item>tongmil_cookie</item>
+        <item>peanut_butter_sesame_cookie</item>
+        <item>manhattan_cookies</item>
+        <item>coconut_cookie</item>
+        <item>cheese_cookie</item>
+        <item>sable_snail_cookie</item>
+        <item>milk_cookie</item>
+        <item>green_cookie</item>
+    </string-array>
+
+    <string-array name="cake">
+        <item>cheese_pound_cake</item>
+        <item>chocolate_cake</item>
+        <item>cream_cheese_muffin</item>
+        <item>cheesecake</item>
+        <item>roll_cake</item>
+        <item>castella</item>
+        <item>tiramisu</item>
+        <item>brownie_cupcake</item>
+        <item>banana_muffins</item>
+        <item>choco_muffin</item>
+    </string-array>
+
+    <string-array name="scone">
+        <item>scone</item>
+        <item>whole_wheat_walnut_scone</item>
+        <item>cranberry_scone</item>
+        <item>choco_chips_corn</item>
+        <item>earl_grace_cor</item>
+        <item>blueberry_scone</item>
+    </string-array>
+
+</resources>
