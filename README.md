@@ -34,13 +34,13 @@
 
 ## Execution1 / 실행1 - 나만의 냉장고 기능
 
-<img src="./screen/git1.PNG" width="30%" height="30%" align="center"> **첫 실행 화면** 
+<img src="./screen/git1.PNG" width="25%" height="25%" align="center"> **첫 실행 화면** 
 
-<img src="./screen/git2.PNG" width="30%" height="30%" align="center"> **오른쪽 상단에 있는 메뉴를 클릭하면 "나만의 냉장고" 항목이 표시** 
+<img src="./screen/git2.PNG" width="25%" height="25%" align="center"> **오른쪽 상단에 있는 메뉴를 클릭하면 "나만의 냉장고" 항목이 표시** 
 
-<img src="./screen/git3.PNG" width="30%" height="30%" align="center"> **나만의 냉장고(갱신)을 통해 해당 에디트텍스트에 현재 자신이 가지고 있는 재료를 기록,저장 할 수 있다.** 
+<img src="./screen/git3.PNG" width="25%" height="25%" align="center"> **나만의 냉장고(갱신)을 통해 해당 에디트텍스트에 현재 자신이 가지고 있는 재료를 기록,저장 할 수 있다.** 
 
-<img src="./screen/git4.PNG" width="30%" height="30%" align="center"> **나만의 냉장고(확인하기)를 통해 기록해뒀던 현재 재료 목록을 확인할 수 있다** 
+<img src="./screen/git4.PNG" width="25%" height="25%" align="center"> **나만의 냉장고(확인하기)를 통해 기록해뒀던 현재 재료 목록을 확인할 수 있다** 
 
 
 <hr/>
