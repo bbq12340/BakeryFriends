@@ -9,7 +9,7 @@
     <string-array name="cookie">
         <item>macaroon</item>
         <item>Chocolate_cookies</item>
-        <item>Almond_Cookie</item>
+        <item>amond_cookies</item>
         <item>Butter_Cookie</item>
         <item>Orange_Cookie</item>
         <item>Tongmil_Cookie</item>
@@ -23,23 +23,25 @@
     </string-array>
 
     <string-array name="cake">
-        <item>치즈파운드케이크</item>
-        <item>초코케이크</item>
-        <item>크림치즈머핀</item>
-        <item>치즈케이크</item>
-        <item>롤케이크</item>
-        <item>카스테라</item>
-        <item>티라미수</item>
-        <item>브라우니컵케익</item>
-        <item>바나나머핀</item>
-        <item>초코머핀</item>
+        <item>cheese_pound_cake</item>
+        <item>chocolate_cake</item>
+        <item>cream_cheese_muffin</item>
+        <item>cheesecake</item>
+        <item>roll_cake</item>
+        <item>castella</item>
+        <item>tiramisu</item>
+        <item>brownie_cupcake</item>
+        <item>banana_muffins</item>
+        <item>choco_muffin</item>
     </string-array>
 
     <string-array name="scone">
-        <item>스콘</item>
-        <item>통밀호두스콘</item>
-        <item>크렌베리스콘</item>
-        <item></item>
+        <item>scone</item>
+        <item>whole_wheat_walnut_scone</item>
+        <item>cranberry_scone</item>
+        <item>choco_chips_corn</item>
+        <item>earl_grace_cor</item>
+        <item>blueberry_scone</item>
     </string-array>
 
 </resources>
