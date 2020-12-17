@@ -69,6 +69,7 @@
 ## Notice / 
 
 <img src="./screen/git8.PNG" width="20%" height="20%" align="center"> <== **아직 대부분 Bread들의 사진, 레시피들이 누락되어 있습니다.**
+
 **많은 쿠키,케이크,스콘 종류의 사진, 레시피들은 추후 계속 업데이트 될 예정입니다.**
 
 
