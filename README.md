@@ -67,7 +67,7 @@
 
 
 
-## Notice / 
+## Notice / 공지
 
 <img src="./screen/git8.PNG" width="20%" height="20%" align="center"> <== **아직 대부분 Bread들의 사진, 레시피들이 누락되어 있습니다.**
 
