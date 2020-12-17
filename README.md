@@ -45,23 +45,24 @@
 
 <hr/>
 
-## Running the tests / 테스트의 실행
+## Execution2 / 실행2 - 베이커리 추천 기능
 
-어떻게 테스트가 이 시스템에서 돌아가는지에 대한 설명을 합니다
+<img src="./screen/git5.PNG" width="25%" height="25%" align="center"> **재료입력, Bread 종류를 선택**
 
-### 테스트는 이런 식으로 동작합니다
+<img src="./screen/git6.PNG" width="25%" height="25%" align="center"> **추천버튼을 누르면 알고리즘을 통해 해당 재료와 가장 가까운 Bread 3개를 추천한다. **
 
-왜 이렇게 동작하는지, 설명합니다
+<img src="./screen/git7.PNG" width="25%" height="25%" align="center"> **Bread를 선택하면 레시피 대화상자를 출력한다.(레시피는 추후 업데이트 예정)**
 
-```
-예시
-```
 
-### 테스트는 이런 식으로 작성하시면 됩니다
 
-```
-예시
-```
+
+
+
+
+
+
+
+
 
 ## Deployment / 배포
 
