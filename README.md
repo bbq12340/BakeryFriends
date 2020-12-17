@@ -49,7 +49,7 @@
 
 <img src="./screen/git5.PNG" width="25%" height="25%" align="center"> **재료입력, Bread 종류를 선택**
 
-<img src="./screen/git6.PNG" width="25%" height="25%" align="center"> **추천버튼을 누르면 알고리즘을 통해 해당 재료와 가장 가까운 Bread 3개를 추천한다. **
+<img src="./screen/git6.PNG" width="25%" height="25%" align="center"> **추천버튼을 누르면 알고리즘을 통해 해당 재료와 가장 가까운 Bread 3개를 추천한다.**
 
 <img src="./screen/git7.PNG" width="25%" height="25%" align="center"> **Bread를 선택하면 레시피 대화상자를 출력한다.(레시피는 추후 업데이트 예정)**
 
