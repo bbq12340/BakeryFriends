@@ -7,11 +7,41 @@
     </string-array>
 
     <string-array name="cookie">
-        <item>macarong</item>
-        <item>chocolate</item>
-        <item>almond</item>
-        <item>butter</item>
+        <item>macaroon</item>
+        <item>Chocolate_cookies</item>
+        <item>amond_cookies</item>
+        <item>Butter_Cookie</item>
+        <item>Orange_Cookie</item>
+        <item>Tongmil_Cookie</item>
+        <item>Peanut_Butter_Sesame_Cookie</item>
+        <item>Manhattan_Cookies</item>
+        <item>Coconut_Cookie</item>
+        <item>Cheese_Cookie</item>
+        <item>Sable_Snail_Cookie</item>
+        <item>Milk_Cookie</item>
+        <item>Green_Cookie</item>
     </string-array>
 
+    <string-array name="cake">
+        <item>cheese_pound_cake</item>
+        <item>chocolate_cake</item>
+        <item>cream_cheese_muffin</item>
+        <item>cheesecake</item>
+        <item>roll_cake</item>
+        <item>castella</item>
+        <item>tiramisu</item>
+        <item>brownie_cupcake</item>
+        <item>banana_muffins</item>
+        <item>choco_muffin</item>
+    </string-array>
+
+    <string-array name="scone">
+        <item>scone</item>
+        <item>whole_wheat_walnut_scone</item>
+        <item>cranberry_scone</item>
+        <item>choco_chips_corn</item>
+        <item>earl_grace_cor</item>
+        <item>blueberry_scone</item>
+    </string-array>
 
 </resources>

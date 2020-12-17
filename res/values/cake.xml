@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cheese_pound_cake">
+        <item>치즈파운드케이크</item>
+        <item>계란</item>
+        <item>크림치즈</item>
+        <item>버터</item>
+        <item>설탕</item>
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>레몬피</item>
+    </string-array>
+    <string-array name="chocolate_cake">
+        <item>초코케이크</item>
+        <item>박력분</item>
+        <item>코코아</item>
+        <item>설탕</item>
+        <item>계란</item>
+        <item>유화제</item>
+        <item>우유</item>
+        <item>버터</item>
+        <item>식용유</item>
+        <item>초콜릿</item>
+    </string-array>
+    <string-array name="cream_cheese_muffin">
+        <item>크림치즈머핀</item>
+        <item>머핀믹스</item>
+        <item>크림치즈</item>
+        <item>우유</item>
+        <item>버터</item>
+        <item>계란</item>
+        <item>설탕</item>
+        <item>바닐라향</item>
+        <item>레몬</item>
+    </string-array>
+    <string-array name="cheesecake">
+        <item>치즈케이크</item>
+        <item>크림치즈</item>
+        <item>생크림</item>
+        <item>설탕</item>
+        <item>버터</item>
+        <item>우유</item>
+        <item>계란</item>
+        <item>박력분</item>
+        <item>레몬즙</item>
+    </string-array>
+    <string-array name="roll_cake">
+        <item>롤케이크</item>
+        <item>박력분</item>
+        <item>계란</item>
+        <item>설탕</item>
+        <item>소금</item>
+        <item>물엿</item>
+        <item>우유</item>
+        <item>베이킹파우더</item>
+        <item>바닐라향</item>
+    </string-array>
+    <string-array name="castella">
+        <item>카스테라</item>
+        <item>박력분</item>
+        <item>계란</item>
+        <item>설탕</item>
+        <item>설탕</item>
+        <item>물엿</item>
+        <item>정종</item>
+        <item>소금</item>
+        <item>우유</item>
+        <item>식용유</item>
+        <item>바닐라향</item>
+    </string-array>
+    <string-array name="tiramisu">
+        <item></item>
+        <item>크림치즈</item>
+        <item>계란</item>
+        <item>설탕</item>
+        <item>젤라틴</item>
+        <item>물</item>
+        <item>생크림</item>
+        <item>커피시럽</item>
+    </string-array>
+    <string-array name="brownie_cupcake">
+        <item>브라우니컵케익</item>
+        <item>다크초콜릿</item>
+        <item>버터</item>
+        <item>흑설탕</item>
+        <item>소금</item>
+        <item>계란</item>
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>우유</item>
+        <item>견과류</item>
+    </string-array>
+    <string-array name="banana_muffins">
+        <item>바나나머핀</item>
+        <item>박력분</item>
+        <item>버터</item>
+        <item>설탕</item>
+        <item>계란</item>
+        <item>베이킹파우더</item>
+        <item>소금</item>
+        <item>우유</item>
+        <item>바나나</item>
+    </string-array>
+    <string-array name="choco_muffin">
+        <item>초코머핀</item>
+        <item>중력분</item>
+        <item>코코아분말</item>
+        <item>초콜릿</item>
+        <item>버터</item>
+        <item>설탕</item>
+        <item>계란</item>
+        <item>베이킹파우더</item>
+        <item>소금</item>
+        <item>베이킹소다</item>
+        <item>우유</item>
+        <item>아몬드슬라이스</item>
+    </string-array>
+</resources>
