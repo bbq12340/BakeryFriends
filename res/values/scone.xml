@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="스콘">
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>소금</item>
+        <item>설탕</item>
+        <item>버터</item>
+        <item>계란</item>
+        <item>우유</item>
+        <item>바닐라향</item>
+    </string-array>
+    <string-array name="통밀호두스콘">
+        <item>통밀가루</item>
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>베이킹소다</item>
+        <item>흑설탕</item>
+        <item>소금</item>
+        <item>버터</item>
+        <item>우유</item>
+        <item>계란</item>
+        <item>호두</item>
+    </string-array>
+    <string-array name="크렌베리스콘">
+        <item>박력분</item>
+        <item>베이킹파우더</item>
+        <item>소금</item>
+        <item>설탕</item>
+        <item>버터</item>
+        <item>계란</item>
+        <item>우유</item>
+        <item>바닐라향</item>
+        <item>크렌베리</item>
+        <item>건포도</item>
+    </string-array>
+</resources>
