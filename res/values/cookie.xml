@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="마카롱">
+    <string-array name="macaroon">
         <item>계란</item>
         <item>아몬드 분말</item>
         <item>슈가파우더</item>
@@ -9,7 +9,7 @@
         <item>마차가루</item>
         <item>코코아가루</item>
     </string-array>
-    <string-array name="초콜렛쿠키">
+    <string-array name="Chocolate_cookies">
         <item>버터</item>
         <item>올리고당</item>
         <item>박력분</item>
@@ -19,7 +19,7 @@
         <item>코코아가루</item>
         <item>초코</item>
     </string-array>
-    <string-array name="아몬드쿠키">
+    <string-array name="Almond_Cookie">
         <item>계란</item>
         <item>소금</item>
         <item>박력분</item>
@@ -27,13 +27,13 @@
         <item>설탕</item>
         <item>아몬드</item>
     </string-array>
-    <string-array name="버터쿠키">
+    <string-array name="Butter_Cookie">
         <item>버터</item>
         <item>설탕</item>
         <item>박력분</item>
         <item>계란</item>
     </string-array>
-    <string-array name="오렌지쿠키">
+    <string-array name="Orange_Cookie">
         <item>버터</item>
         <item>설탕</item>
         <item>박력분</item>
@@ -44,7 +44,7 @@
         <item>오렌지</item>
         <item>레몬피</item>
     </string-array>
-    <string-array name="통밀쿠키">
+    <string-array name="Tongmil_Cookie">
         <item>버터</item>
         <item>황설탕</item>
         <item>박력분</item>
@@ -54,7 +54,7 @@
         <item>검정깨</item>
         <item>베이킹파우더</item>
     </string-array>
-    <string-array name="피넛버터참깨쿠키">
+    <string-array name="Peanut_Butter_Sesame_Cookie">
         <item>버터</item>
         <item>황설탕</item>
         <item>박력분</item>
@@ -62,7 +62,7 @@
         <item>베이킹소다</item>
         <item>피넛버터</item>
     </string-array>
-    <string-array name="맨하탄쿠키">
+    <string-array name="Manhattan_Cookies">
         <item>버터</item>
         <item>황설탕</item>
         <item>박력분</item>
@@ -74,7 +74,7 @@
         <item>호두</item>
         <item>바닐라향</item>
     </string-array>
-    <string-array name="코코넛쿠키">
+    <string-array name="Coconut_Cookie">
         <item>버터</item>
         <item>박력분</item>
         <item>설탕</item>
@@ -87,7 +87,7 @@
         <item>초코칩</item>
         <item>코코넛채</item>
     </string-array>
-    <string-array name="치즈쿠키">
+    <string-array name="Cheese_Cookie">
         <item>버터</item>
         <item>박력분</item>
         <item>설탕</item>
@@ -96,7 +96,7 @@
         <item>황치즈분말</item>
         <item>소금</item>
     </string-array>
-    <string-array name="사블레달팽이쿠키">
+    <string-array name="Sable_Snail_Cookie">
         <item>버터</item>
         <item>박력분</item>
         <item>슈가파우더</item>
@@ -106,7 +106,7 @@
         <item>바닐라향</item>
         <item>소금</item>
     </string-array>
-    <string-array name="밀크쿠키">
+    <string-array name="Milk_Cookie">
         <item>버터</item>
         <item>박력분</item>
         <item>베이킹파우더</item>
@@ -116,7 +116,7 @@
         <item>소금</item>
         <item>생크림</item>
     </string-array>
-    <string-array name="녹차쿠키">
+    <string-array name="Green_Cookie">
         <item>버터</item>
         <item>박력분</item>
         <item>녹차가루</item>
